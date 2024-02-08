@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="img\Crud.png" />
+    <None Remove="img\Dark.png" />
+    <None Remove="img\Exit.png" />
+    <None Remove="img\Home.png" />
+    <None Remove="img\logo.png" />
+    <None Remove="img\Prefab.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.9.0" />
+    <PackageReference Include="MySql.Data" Version="8.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\Crud.png" />
+    <Resource Include="img\Dark.png" />
+    <Resource Include="img\Exit.png" />
+    <Resource Include="img\Home.png" />
+    <Resource Include="img\logo.png" />
+    <Resource Include="img\Prefab.png" />
+  </ItemGroup>
+
+</Project>
